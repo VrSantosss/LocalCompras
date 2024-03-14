@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(18, 29, 49, 0.9);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-img{
+    border-radius: 100% 0 0 100% ;
+    overflow: hidden;
+    box-shadow: rgba(21, 9, 255, 0.781) 0px 5px 525px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 2em;
+    border-radius: 0 10px 10px 0;
+    background-color: rgba(18, 27, 43, 0.84);
+    color: #ffff;
+    border: 4px double rgba(30, 18, 193, 0.781);
+    box-shadow: rgba(6, 37, 237, 0.781) 0px 5px 525px;
+}
+
+input{
+    padding: 5px;
+    border: 2px solid rgba(70, 14, 212, 0.781);
+    border-radius: 10px;
+    background-color: rgba(18, 29, 49, 0.9);
+    color: #ffff;
+    
+}
+
+input:focus {
+    box-shadow: rgba(119, 56, 255, 0.24) 0px 5px 15px;
+  }
+
+.key{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    opacity: 0.6;
+}
+
+.key:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.error-div{
+    position: absolute;
+    bottom: 10px;
+    width: auto;
+    padding: 10px;
+    background-color: rgb(0, 72, 255);
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 1vh;
+    display: none;
+}
+
+
+button{
+    padding: 5px 15px;
+    background-color: rgb(18, 27, 43);
+    border: 2px double #ffff;
+    border-radius: 10px;
+    opacity: 0.7;
+    border: 4px double rgba(189, 177, 187, 0.744);
+}
+
+button:hover{
+    opacity: 1;
+    border: 4px double rgba(46, 4, 184, 0.781);
+    box-shadow: rgba(8, 12, 227, 0.781) 0px 5px 25px;
+    color: #ffff;
+    cursor: pointer;
+}
